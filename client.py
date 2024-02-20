@@ -11,8 +11,8 @@ def receive_messages(client_socket):
             print("El servidor se ha desconectado")
             break
 
-# Configuración del cliente.
-host = "127.0.0.1"
+# Configuración del cliente. #Aqui se pone la ip del servidor
+host = ""
 port = 8080
 
 # Conexión que se realiza al servidor.

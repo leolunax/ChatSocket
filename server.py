@@ -29,8 +29,8 @@ def handle_client(client_socket, client_address):
     client_socket.close()
 
 
-# Configuración del servidor
-host = "127.0.0.1"
+# Configuración del servidor #Aqui se pone la ip del servidor
+host = ""
 puerto = 8080
 
 # Crear el socket del servidor
